@@ -10,7 +10,7 @@ from instalooter.looters import PostLooter
 
 logging.basicConfig(level=logging.ERROR)
 
-API_TOKEN = os.environ['API_TOKEN']
+API_TOKEN = os.environ['API_TOKEN', '5463958420:AAHLzffDhghdH8qXALrL2kKNCIbKs_KUYvI']
 
 HELP_MESSAGE = \
 '''
